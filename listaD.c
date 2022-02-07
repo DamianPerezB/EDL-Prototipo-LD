@@ -310,3 +310,17 @@ Nodo* buscaElemento(ListaD *lista, Nodo *elemento){
     }
     return(aux);
 }
+
+void ordenamiento_insercion(ListaD *lista, int n){
+    int i, j;
+    Nodo *aux = lista->cabeza;
+    for (i=1; i<n; i++){
+        j = i;
+        //aux = a[i];
+        //while(j>0 && aux < a[j-1]    ){
+            //a[j] = a[j-1];
+            j--;
+        }
+        //a[j] = aux
+    }
+}
